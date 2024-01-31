@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-market {
+    /* background-color: rgb(23, 81, 157); */
+    /* height: 100%; */
+}
+
+.container-market-main {
+    /* background-color: rgb(251, 143, 143); */
+    /* height: 100vh; */
+    display: flex;
+    margin-top: 55px;/
+}
+
+.main-left {
+    /* background-color: rgb(246, 146, 65); */
+    flex-basis: 15%;
+    position: relative;
+}
+
+/* ===for right content post */
+.main-right {
+    background-color: rgb(242, 246, 246);
+    flex-basis: 85%;   
+    max-height: 91vh;
+}
+
+
+/* mediaQuary------------------- */
