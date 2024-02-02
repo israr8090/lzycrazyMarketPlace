@@ -37,7 +37,7 @@
     margin-top: 4px;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 12px;
     align-items: center;
     justify-content: space-around;
     height: 98%;
@@ -46,10 +46,10 @@
 
 .banner {
     /* background-color: rgb(147, 150, 145); */
-    border: 1px solid rgb(190, 190, 190);
+    border: 1px solid rgb(176, 174, 174);
     border-radius: 10px;
     width: 49%;
-    height: 200px;
+    height: 202px;
     /* margin: 1px; */
     display: flex;
     justify-items: center;
