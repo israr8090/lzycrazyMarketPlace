@@ -33,7 +33,7 @@
 
 /* navbar------------- */
 .left-nav {
-    /* background-color: rgb(95, 220, 17); */
+    background-color: rgb(241, 249, 236);
     /* background-color: #ffffff; */
     /* border: 1px solid rgb(10, 52, 10); */
     /* width: 90%; */
@@ -77,7 +77,7 @@
 }
 
 .nav a span {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
     color: #050505;
