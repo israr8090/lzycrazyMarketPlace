@@ -31,31 +31,6 @@
     /* color of the track */
 }
 
-.left-arrow {
-    /* background-color: red; */
-    /* position: absolute;
-    top: 0px;
-    left: 140px; */
-    /* width: 50px;  */
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: var(--patent-color);
-    font-size: 20px;
-}
-
-.icon-size-back {
-    font-size: 14px;
-    margin: 5px;
-    border-radius: 50%;
-    background-color: rgb(210, 209, 209);
-    width: 28px;
-    height: 28px;
-    padding: 6px 5px;
-}
-
 /* navbar------------- */
 .left-nav {
     /* background-color: rgb(95, 220, 17); */
@@ -74,7 +49,12 @@
     margin: 2px 5px;
     padding: 5px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
+}
+.back-btn{
+    /* background: red; */
+    margin-left: 20%;
+    font-size: 27px;
 }
 
 .nav-item {
@@ -121,6 +101,11 @@
         padding: 0;
         margin: 5px;
     }
+    .back-btn{
+        /* background: red; */
+        margin-left: 26%;
+        font-size: 23px;
+    }
 
     .nav a span {
         font-size: 12px;
@@ -139,6 +124,11 @@
         align-items: center;
         /* justify-content: center; */
     }
+    .back-btn{
+        /* background: red; */
+        margin-left: 10%;
+        font-size: 20px;
+    }
 
     .nav a span {
         font-size: 8px;
@@ -152,25 +142,12 @@
         justify-content: center;
     }
 
-    .left-arrow {
-        /* background-color: red; */
-        /* position: absolute;
-        top: 0px;
-        left: 140px; */
-        /* width: 50px;  */
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        color: var(--patent-color);
-        font-size: 18px;
+    .back-btn{
+        /* background: red; */
+        margin-left: 1%;
+        font-size: 12px;
     }
 
-    .nav-category-head{
-        display: flex;
-        flex-direction: column;
-    }
     .nav-item {
         /* background-color: #000000; */
         /* background-color: #7f79f0; */
