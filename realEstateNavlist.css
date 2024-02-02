@@ -31,6 +31,31 @@
     /* color of the track */
 }
 
+.left-arrow {
+    /* background-color: red; */
+    /* position: absolute;
+    top: 0px;
+    left: 140px; */
+    /* width: 50px;  */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--patent-color);
+    font-size: 20px;
+}
+
+.icon-size-back {
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgb(210, 209, 209);
+    width: 28px;
+    height: 28px;
+    padding: 6px 5px;
+}
+
 /* navbar------------- */
 .left-nav {
     /* background-color: rgb(95, 220, 17); */
@@ -61,7 +86,7 @@
     overflow-y: scroll;
 }
 
-.nav a {
+.nav a, .nav-item a {
     text-decoration: none;
     color: #050e42;
 }
@@ -126,10 +151,39 @@
     .nav {
         justify-content: center;
     }
+
+    .left-arrow {
+        /* background-color: red; */
+        /* position: absolute;
+        top: 0px;
+        left: 140px; */
+        /* width: 50px;  */
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: var(--patent-color);
+        font-size: 18px;
+    }
+
+    .nav-category-head{
+        display: flex;
+        flex-direction: column;
+    }
     .nav-item {
         /* background-color: #000000; */
         /* background-color: #7f79f0; */
         /* border-bottom: 1px solid rgb(255, 0, 0); */
         height: 79vh;    
+    }
+    .left-nav h2 {
+        font-size: 10px;
+        padding: 0;
+        margin: 5px;
+    }
+
+    .nav a span {
+        font-size: 9px;
     }
 }
