@@ -46,7 +46,7 @@
 
 .banner {
     /* background-color: rgb(147, 150, 145); */
-    /* border: 1px solid black; */
+    border: 1px solid rgb(190, 190, 190);
     border-radius: 10px;
     width: 49%;
     height: 200px;
@@ -65,7 +65,7 @@
 
 .banner-img {
     border-radius: 10px;
-    width: 41vw;
+    width: 40.9vw;
     height: 196px;
     margin: 0px 0px;
 }
