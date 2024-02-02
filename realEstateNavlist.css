@@ -63,7 +63,7 @@
     /* border-bottom: 1px solid rgb(255, 0, 0); */
     height: 83vh;
     /* width: 99%; */
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 
 .nav a, .nav-item a {
